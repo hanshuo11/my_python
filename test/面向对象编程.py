@@ -12,13 +12,22 @@
 # # print(print_peoples(std1))
 # print(list(i for i in L)[0])
 #面向对象
-class Student(object):
-    def __init__(self, name, score):
-        self.name = name
-        self.score = score
+# class Student(object):
+#     def __init__(self, name, score):
+#         self.name = name
+#         self.score = score
+#
+#     def print_score(self):
+#         print("%s : %s" % (self.name, self.score))
 
-    def print_score(self):
-        print("%s : %s" % (self.name, self.score))
 
+class my_test(object):
+    def __init__(self,name):
+        self.name=name
+
+s=my_test('hanshuo')
+s.age=18
+
+print(s.age)
 
 
